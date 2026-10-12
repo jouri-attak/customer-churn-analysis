@@ -28,3 +28,16 @@ This analysis investigates the following questions:
 - **Power BI:** Interactive dashboard development and data visualization.
 - **GitHub:** Project documentation, version control, and portfolio presentation.
 
+## Data Preparation & Quality Checks
+
+Before performing the churn analysis, data quality checks were conducted using SQL Server to assess the reliability and consistency of the dataset.
+
+The checks included:
+
+- **Duplicate records:** Verified customer records for duplicates; no duplicate customer IDs were found.
+- **Missing values:** Checked for missing and blank values in relevant columns and investigated missing `TotalCharges` values in the raw data.
+- **Data consistency:** Validated categorical values and checked logical consistency across relevant fields.
+- **Numeric validation:** Examined the ranges of key numeric variables, including tenure, monthly charges, and total charges.
+- **Data cleaning:** Created and validated a cleaned table, `Customer_Clean`, for use in the subsequent analysis.
+
+The cleaned dataset contained **7,043 customer records** and was used as the basis for the SQL analysis and Power BI dashboard.
