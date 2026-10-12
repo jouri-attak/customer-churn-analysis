@@ -55,3 +55,19 @@ The analysis of 7,043 customer records identified the following churn patterns:
 - **High-risk segment > Contract type and internet service:** Month-to-month customers with Fiber optic internet had a churn rate of **54.61%** among 2,128 customers, with 1,162 customers churning.
 
 These findings highlight customer groups that may warrant closer monitoring and targeted retention efforts. The observed relationships identify patterns in the dataset but do not establish that any individual characteristic causes churn.
+
+## Business Recommendations
+
+Based on the observed churn patterns, the following actions could help prioritize customer retention efforts:
+
+1. **Prioritize early-tenure customers:** Focus on month-to-month customers in their first six months with proactive onboarding, early check-ins, and timely support before they decide to leave.
+
+2. **Investigate high-risk customer segments:** Examine month-to-month customers with Fiber optic internet to understand their reasons for leaving and identify opportunities to improve their experience.
+
+3. **Encourage longer-term contracts:** Test targeted incentives or explain the benefits of one-year and two-year contracts to eligible month-to-month customers, while monitoring conversion and retention outcomes.
+
+4. **Review the electronic-check payment experience:** Investigate whether payment friction, billing concerns, or other factors may contribute to the higher churn observed among electronic-check users.
+
+5. **Measure retention outcomes:** Track churn rates across these segments over time and evaluate whether targeted retention initiatives improve customer retention.
+
+These recommendations are hypotheses for business action, not proven solutions. Their effectiveness should be evaluated using customer feedback, further investigation, and measured retention outcomes.
