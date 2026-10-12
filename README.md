@@ -86,7 +86,7 @@ customer-churn-analysis/
 │   ├── 01_data_quality.sql
 │   └── 02_churn_analysis.sql
 ├── powerbi/
-│   └── Customer_Churn_Dashboard.pbix
-└── images/
+│   └── customer_churn_dashboard.pbix
+└── Images/
     └── churn_dashboard.png
 ```
