@@ -13,7 +13,8 @@ The analysis covers data quality validation, exploratory SQL analysis, customer 
 
 ## Power BI Dashboard
 
-An interactive Power BI dashboard was developed to summarize the customer churn analysis and make the key findings easier to explore.
+An interactive Power BI dashboard summarizes overall churn metrics and highlights customer segments associated with higher churn rates. 
+It helps communicate the key findings and supports data-driven customer retention decisions.
 ![Customer Churn Analysis Dashboard](Images/churn_dashboard.png)
 
 ## Business Questions
@@ -56,8 +57,8 @@ The analysis of 7,043 customer records identified the following churn patterns:
 - **Customer tenure:** Customers with 0–6 months of tenure had a churn rate of 52.94%, with churn rates generally declining as tenure increased.
 - **Internet service:** Fiber optic customers had a churn rate of 41.89%, compared with 18.96% for DSL customers and 7.40% for customers without internet service.
 - **Payment method:** Customers using electronic checks had a churn rate of 45.29%.
-- **High-risk segment > Contract type and tenure:** Month-to-month customers with 0–6 months of tenure had a churn rate of **55.20%**: **780 out of 1,413 customers** churned.
-- **High-risk segment > Contract type and internet service:** Month-to-month customers with Fiber optic internet had a churn rate of **54.61%** among 2,128 customers, with 1,162 customers churning.
+- **High-risk segment - Contract type and tenure:** Month-to-month customers with 0–6 months of tenure had a churn rate of **55.20%**: **780 out of 1,413 customers** churned.
+- **High-risk segment - Contract type and internet service:** Month-to-month customers with Fiber optic internet had a churn rate of **54.61%** among 2,128 customers, with 1,162 customers churning.
 
 These findings highlight customer groups that may warrant closer monitoring and targeted retention efforts. The observed relationships identify patterns in the dataset but do not establish that any individual characteristic causes churn.
 
