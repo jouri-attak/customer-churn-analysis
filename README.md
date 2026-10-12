@@ -35,9 +35,23 @@ Before performing the churn analysis, data quality checks were conducted using S
 The checks included:
 
 - **Duplicate records:** Verified customer records for duplicates; no duplicate customer IDs were found.
-- **Missing values:** Checked for missing and blank values in relevant columns and investigated missing `TotalCharges` values in the raw data.
+- **Missing values:** Checked for missing and blank values in relevant columns and investigated missing 'TotalCharges' values in the raw data.
 - **Data consistency:** Validated categorical values and checked logical consistency across relevant fields.
 - **Numeric validation:** Examined the ranges of key numeric variables, including tenure, monthly charges, and total charges.
-- **Data cleaning:** Created and validated a cleaned table, `Customer_Clean`, for use in the subsequent analysis.
+- **Data cleaning:** Created and validated a cleaned table, 'Customer_Clean', for use in the subsequent analysis.
 
 The cleaned dataset contained **7,043 customer records** and was used as the basis for the SQL analysis and Power BI dashboard.
+
+## Key Findings
+
+The analysis of 7,043 customer records identified the following churn patterns:
+
+- **Overall churn:** 26.54% of customers had churned, representing 1,869 customers.
+- **Contract type:** Month-to-month customers had a churn rate of 42.71%, compared with 11.27% for one-year contracts and 2.83% for two-year contracts.
+- **Customer tenure:** Customers with 0–6 months of tenure had a churn rate of 52.94%, with churn rates generally declining as tenure increased.
+- **Internet service:** Fiber optic customers had a churn rate of 41.89%, compared with 18.96% for DSL customers and 7.40% for customers without internet service.
+- **Payment method:** Customers using electronic checks had a churn rate of 45.29%.
+- **High-risk segment > Contract type and tenure:** Month-to-month customers with 0–6 months of tenure had a churn rate of **55.20%**: **780 out of 1,413 customers** churned.
+- **High-risk segment > Contract type and internet service:** Month-to-month customers with Fiber optic internet had a churn rate of **54.61%** among 2,128 customers, with 1,162 customers churning.
+
+These findings highlight customer groups that may warrant closer monitoring and targeted retention efforts. The observed relationships identify patterns in the dataset but do not establish that any individual characteristic causes churn.
