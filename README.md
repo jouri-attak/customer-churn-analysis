@@ -11,6 +11,11 @@ The analysis covers data quality validation, exploratory SQL analysis, customer 
 
 **Project objective:** Identify high-risk customer segments and provide actionable insights that can help a business prioritize its customer retention efforts.
 
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed to summarize the customer churn analysis and make the key findings easier to explore.
+![Customer Churn Analysis Dashboard](Images/churn_dashboard.png)
+
 ## Business Questions
 
 This analysis investigates the following questions:
@@ -71,3 +76,17 @@ Based on the observed churn patterns, the following actions could help prioritiz
 5. **Measure retention outcomes:** Track churn rates across these segments over time and evaluate whether targeted retention initiatives improve customer retention.
 
 These recommendations are hypotheses for business action, not proven solutions. Their effectiveness should be evaluated using customer feedback, further investigation, and measured retention outcomes.
+
+## Project Structure
+
+```text
+customer-churn-analysis/
+├── README.md
+├── sql/
+│   ├── 01_data_quality.sql
+│   └── 02_churn_analysis.sql
+├── powerbi/
+│   └── Customer_Churn_Dashboard.pbix
+└── images/
+    └── churn_dashboard.png
+```
